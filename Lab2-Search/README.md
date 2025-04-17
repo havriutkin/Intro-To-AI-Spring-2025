@@ -1,6 +1,6 @@
 # Maze Generation & Solving Report
 
-This report summarizes a Python program that **generates** a perfect maze, **solves** it via the shortest path, and **animates** both processes using Pygame. A recorded video of the full animation is attached below.
+This report summarizes a Python program that **generates** a perfect maze, **solves** it via the shortest path, and **animates** both processes using Pygame.
 
 ---
 
@@ -56,8 +56,23 @@ This report summarizes a Python program that **generates** a perfect maze, **sol
 
 ---
 
-## Animation Video
+## 4. Animation
+![Maze Animation](./Generation_And_Solving_Animation.gif)
 
-<video controls src="./Generation_And_Solving_Animation.mp4" width="800">
-  Your browser does not support the video tag.
-</video>
+
+## 5. How to Run
+
+1. **Clone** this repository  
+   ```bash
+   git clone https://github.com/yourusername/maze-animator.git
+   cd maze-animator
+2. Install **dependencies**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate       # macOS/Linux
+   .\venv\Scripts\activate        # Windows
+   pip install pygame
+3. **Run** the program
+   ```bash
+   python main.py
+
